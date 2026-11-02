@@ -1,0 +1,23 @@
+# Local analysis outputs and device/firmware data
+local-analysis/
+private/
+rootfs/
+backups/
+*.img
+*.bin
+*.fw
+*.mtd
+*.dump
+*.jffs2
+*.squashfs
+*.ubi
+*.ubifs
+*.key
+*.pem
+*.p12
+*.pcap
+*.pcapng
+# Python
+__pycache__/
+*.pyc
+.venv/
