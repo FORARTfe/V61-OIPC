@@ -4,6 +4,19 @@ Community-oriented, static firmware research for an OpenIPC port to a HiSilicon 
 
 Status: research / preliminary porting plan. This repository is **not** a tested OpenIPC firmware image, board support package, or flashing guide. Neither the original device nor an OpenIPC boot was tested during this analysis.
 
+
+## Repository contents
+
+```text
+docs/FIRMWARE_ANALYSIS.md       Full technical analysis in English
+docs/PORTING_CHECKLIST.md       Safe, staged OpenIPC porting checklist
+docs/EVIDENCE_MANIFEST.md      Source-file references and checksums (no vendor payloads)
+data/metadata.json             Machine-readable summary of static findings
+data/file_inventory.tsv        Names/sizes/modes from the JFFS2 filesystem
+tools/inspect_firmware.py      Standalone, read-only-by-default analysis tool
+tests/test_inspector.py        Basic tests for the analyzer
+```
+
 ## Key findings
 
 | Area | Finding | Confidence / caveat |
@@ -17,31 +30,6 @@ Status: research / preliminary porting plan. This repository is **not** a tested
 | PTZ control | Hi3516A application -> `/dev/ttyAMA1` -> external STM32-class MCU | Serial protocol remains unknown |
 | Video output | Stock pinmux configures BT.1120 | External HDMI/SDI chipset not identified |
 | Persistent data | `/data` corresponds to MTD partition 4, absent from update image | Full flash backup still required |
-
-## Source image (not distributed)
-
-```text
-Filename: V61S_F5.HI_V6.3.72_24M_20250424.img
-Size:     25,690,112 bytes (0x01880000)
-SHA-256:  48deb67e8fbbb26c0b4528ae957711042d4bea81059cf05b5475943024b43448
-```
-
-The uploaded file was examined statically on 2026-11-02. The original image and all vendor binaries, firmware for the secondary MCU, vendor scripts, proprietary ISP configuration, and personal/device-specific persistent data are intentionally excluded from this public-ready archive. Nothing here represents permission to redistribute third-party firmware.
-
-## Repository contents
-
-```text
-README.md                      Project overview
-NOTICE.md                      Provenance and redistribution boundaries
-LICENSE                        License for original materials in this repository
-docs/FIRMWARE_ANALYSIS.md       Full technical analysis in English
-docs/PORTING_CHECKLIST.md       Safe, staged OpenIPC porting checklist
-docs/EVIDENCE_MANIFEST.md      Source-file references and checksums (no vendor payloads)
-data/metadata.json             Machine-readable summary of static findings
-data/file_inventory.tsv        Names/sizes/modes from the JFFS2 filesystem
-tools/inspect_firmware.py      Standalone, read-only-by-default analysis tool
-tests/test_inspector.py        Basic tests for the analyzer
-```
 
 ## Reproduce the static analysis
 
