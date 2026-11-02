@@ -35,7 +35,7 @@ tests/test_inspector.py        Basic tests for the analyzer
 Requirements: Python 3.9+; standard library only. Use a local, lawfully obtained firmware image. Do not commit the image, extracted blobs, or device backups.
 
 ```sh
-python3 tools/inspect_firmware.py /path/to/V61S_F5.HI_V6.3.72_24M_20250424.img --output ./local-analysis
+python3 tools/inspect_firmware.py /path/to/<firmware.img> --output ./local-analysis
 ```
 
 The script reads the image and writes a metadata JSON file and a filesystem inventory. It does not execute firmware code or flash any device. If you need extracted files for private analysis, pass `--extract-rootfs` and keep the resulting files outside version control.
