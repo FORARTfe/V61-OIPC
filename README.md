@@ -4,7 +4,6 @@ Community-oriented, static firmware research for an OpenIPC port to a HiSilicon 
 
 Status: research / preliminary porting plan. This repository is **not** a tested OpenIPC firmware image, board support package, or flashing guide. Neither the original device nor an OpenIPC boot was tested during this analysis.
 
-
 ## Repository contents
 
 ```text
@@ -50,7 +49,7 @@ By default the expected JFFS2 offset is `0x380000`. You can override the offset 
 
 ## Proposed OpenIPC approach
 
-1. Capture `/proc/mtd`, `fw_printenv`, boot logs, RAM information, and board/flash-chip photos from the original device. Keep backups private.
+1. Capture `/proc/mtd`, `fw_printenv`, boot logs, RAM information, and board/flash-chip photos from the original device.
 2. Build the OpenIPC AV100 baseline as a starting point, not as a ready-to-flash image.
 3. Define the actual flash map, memory map, device tree and recovery procedure.
 4. Boot a temporary/recoverable system, where supported, before writing to SPI NOR.
