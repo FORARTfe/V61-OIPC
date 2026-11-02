@@ -4,7 +4,7 @@ Analysis date: 2026-11-02. Scope: static inspection of a user-provided firmware 
 
 ## 1. Identification and integrity
 
-- Source filename: `V61S_F5.HI_V6.3.72_24M_20250424.img`
+- Source filename: [V61S_F5.HI_V6.3.72_24M_20250424.img](https://downloads.ptzoptics.com/firmware/ndi-sdi-g2-12x)
 - Exact size: 25,690,112 bytes = 24.50 MiB (`0x01880000`).
 - SHA-256: `48deb67e8fbbb26c0b4528ae957711042d4bea81059cf05b5475943024b43448`.
 - U-Boot 2010.06 code is present; the embedded build string is dated 2019-11-14.
