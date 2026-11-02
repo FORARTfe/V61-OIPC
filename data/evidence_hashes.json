@@ -1,0 +1,71 @@
+{
+  "source_image_sha256": "48deb67e8fbbb26c0b4528ae957711042d4bea81059cf05b5475943024b43448",
+  "files": [
+    {
+      "path": "/etc/fw_env.config",
+      "bytes": 437,
+      "sha256": "629997223b698a86fdc8c2b2e611d5f4cfb390546b50e656d3564c7bd9d6b542",
+      "content_type": "vendor text/config"
+    },
+    {
+      "path": "/etc/init.d/rcS",
+      "bytes": 1251,
+      "sha256": "4785291273b8ffb9f3f273c5cecfdf21f4de8ba994b7f851c26fa0f551d43069",
+      "content_type": "vendor text/config"
+    },
+    {
+      "path": "/etc/inittab",
+      "bytes": 3399,
+      "sha256": "4e7167b7f808db906ceecbc451d75f9a539a5ef48d1f7306bad9dbb14d455d53",
+      "content_type": "vendor text/config"
+    },
+    {
+      "path": "/home/V610_V61_ARM_6.4.20SHI.bin",
+      "bytes": 147160,
+      "sha256": "c8d8eb4b04cb37352e6d5c50b8ee15e01aa79089d39dda0284101030f50119a0",
+      "content_type": "binary"
+    },
+    {
+      "path": "/home/configs/mn34220_cfg.ini",
+      "bytes": 14548,
+      "sha256": "6a0226b86e0e252fea4e22d2becc5ca6f64c0e667d5751aa813438ca80bdd02c",
+      "content_type": "vendor text/config"
+    },
+    {
+      "path": "/home/devinfo.conf",
+      "bytes": 47,
+      "sha256": "38871ebb79434e497712339b9627b981f6f24b1982774399b2ce8e9c07b9cf0d",
+      "content_type": "vendor text/config"
+    },
+    {
+      "path": "/home/ko/clkcfg_hi3516a.sh",
+      "bytes": 1702,
+      "sha256": "d836f5eeba55f96072e85a52fc14506a730e594c380fd3f357eb65ca2d84e365",
+      "content_type": "vendor text/config"
+    },
+    {
+      "path": "/home/ko/load3516a",
+      "bytes": 9248,
+      "sha256": "da7cecfa0d8981e08ca39e27b56e7ad7c04bb22a035c380589f6588407ae84dd",
+      "content_type": "vendor text/config"
+    },
+    {
+      "path": "/home/ko/pinmux_hi3516a.sh",
+      "bytes": 2225,
+      "sha256": "fa41933dbd4afafdbad1e76702146e123c75f3e21b767bd69c622e29a8887d81",
+      "content_type": "vendor text/config"
+    },
+    {
+      "path": "/home/ndi_version_file",
+      "bytes": 6,
+      "sha256": "c3d62fdfbf5052f7064fc4e81f572e41ad524a8e761895a0fc891cebe84dda3a",
+      "content_type": "vendor text/config"
+    },
+    {
+      "path": "/home/vhd_start.sh",
+      "bytes": 2802,
+      "sha256": "e4edb5fc0ff997f4119aafb6bb2848202674f8c84e9ee9c2d3b5b23090988ba5",
+      "content_type": "vendor text/config"
+    }
+  ]
+}

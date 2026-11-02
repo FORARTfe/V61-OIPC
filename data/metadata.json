@@ -1,0 +1,36 @@
+{
+  "image_name": "V61S_F5.HI_V6.3.72_24M_20250424.img",
+  "image_size": 25690112,
+  "image_sha256": "48deb67e8fbbb26c0b4528ae957711042d4bea81059cf05b5475943024b43448",
+  "uimage": {
+    "found": true,
+    "offset": "0x80000",
+    "name": "Linux-3.4.35",
+    "timestamp_unix": 1721121854,
+    "payload_size": 2988416,
+    "load_address": "0x80008000",
+    "entry_address": "0x80008000",
+    "header_crc_valid": true,
+    "data_crc_valid": true,
+    "os_id": 5,
+    "arch_id": 2,
+    "image_type": 2,
+    "compression_id": 0
+  },
+  "jffs2": {
+    "rootfs_offset": "0x380000",
+    "rootfs_length_requested": 20971520,
+    "node_type_counts": {
+      "2003": 320,
+      "e001": 813,
+      "e002": 10821
+    },
+    "compression_counts": {
+      "0": 808,
+      "6": 10013
+    },
+    "inventoried_paths": 814,
+    "inode_count": 813
+  },
+  "warning": "Static diagnostic result only; no board-level validation or safe flashing inference."
+}
